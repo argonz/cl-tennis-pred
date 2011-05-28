@@ -1,0 +1,11 @@
+(defpackage "TESTBED"
+  (:use "COMMON-LISP"
+	#:masd
+	"TENNISDB"
+	"TRAINING-SET"
+	"CHAIN"
+	"EVO-CIRCUS"
+	"PLAYER-STATISTICS"
+	"PRED-FUNCTIONS"))
+
+(in-package "TESTBED")
